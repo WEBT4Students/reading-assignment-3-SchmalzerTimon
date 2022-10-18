@@ -384,7 +384,7 @@
             </ul>
     </article>
     <article>
-        <h1><mark>Reading Assignment 02</mark></h2>
+        <h1><mark>Reading Assignment 03</mark></h2>
 
             <h2>Html for Lists</h2>
             <ul>
@@ -410,48 +410,85 @@
             <h2>Css for Lists</h2>
             <ul>
                 <li>
-                    Make bullet a square: 
+                    Make bullet a square:
+                    <p>ul.b {</p>
+                    list-style-type: square;
+                    <p>}</p>
                 </li>
                 <li>
                     Make bullet an image named "my-bullet.png":
+                    <p>ul {</p>
+                    list-style-image: url('my-bullet.png');
+                    <p>}</p>
                 </li>
                 <li>
                     Make bullet an uppercase roman number:
+                    <p>ol.c {</p>
+                    list-style-type: upper-roman;
+                    <p>}</p>
                 </li>
                 <li>
                     Set bullet position to be inside the list item's text flow:
+                    <p>ul.b {</p>
+                    list-style-position: inside;
+                    <p>}</p>
                 </li>
                 <li>
                     Set bullet position to be outside the list item's text flow:
+                    <p>ul.a {</p>
+                    list-style-position: outside;
+                    <p>}</p>
                 </li>
             </ul>
             <h2>Html for Tables</h2>
             <ul>
                 <li>
-                    a table: 
+                    a table: &lt;table&gt;
                 </li>
                 <li>
-                    a table row: 
+                    a table row: &lt;tr&gt;
                 </li>
                 <li>
-                    a table header:
+                    a table header: &lt;tr&gt;
                 </li>
                 <li>
-                    a table header cell:
+                    a table header cell: &lt;th&gt;
                 </li>
                 <li>
-                    a table body:
+                    a table body: &lt;tbody&gt;
                 </li>
                 <li>
-                    a table cell:
+                    a table cell: &lt;td&gt;
                 </li>
                 <li>
-                    a table footer:
+                    a table footer: &lt;tfoot&gt;
                 </li>
                 <li>
-                    a table footer cell:
+                    a table footer cell: &lt;tfoot&gt; oder td
                 </li>
             </ul>
+            <h2>Css for Tables</h2>
+            <p> Black dotted border of 1 px width with css</p>
+            <ul>
+               <li> div {border-style: dotted;</li>
+
+                <li>div {border-color: black;</li>
+
+                <li>add margin: 1px 0 0 1px;</li>
+            </ul>
+
+
+            <p> Solid border of 1 px width having a red color and rounded corners</p>
+            <ul>
+                <li>border-style: solid;</li>
+
+                <li>border-color: red;</li>
+
+                <li>border-radius: 25px;</li>
+            </ul>
+            <p> Merge the borders of table cells so that they appear as one line</p>
+
+            border - collapse: collapse;
     </article>
 </body>
 
